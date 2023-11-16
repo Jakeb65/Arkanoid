@@ -1,0 +1,32 @@
+﻿  Poziom1.cpp
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(39,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(158,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(160,27): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(677,68): warning C4244: "argument": konwersja z "unsigned int" do "float", możliwa utrata danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(798,27): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned int,unsigned int,unsigned int&,unsigned int&>(_Alloc &,_Objty *const ,unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” funkcji szablon
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(780,20): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<unsigned int,unsigned int,unsigned int&,unsigned int&>(unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” funkcji szablon
+          with
+          [
+              _Ty=Block
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(862,24): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<unsigned int,unsigned int,unsigned int&,unsigned int&>(unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” funkcji szablon
+          with
+          [
+              _Ty=Block
+          ]
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(162,19): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::vector<Block,std::allocator<Block>>::emplace_back<unsigned int,unsigned int,unsigned int&,unsigned int&>(unsigned int &&,unsigned int &&,unsigned int &,unsigned int &)” funkcji szablon
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(677,68): warning C4244: "argument": konwersja z "_Ty" do "float", możliwa utrata danych
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(54): warning C4715: "collisionTest1”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(90): warning C4715: "collisionTest1”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\Admin\source\repos\Arkanoid\Arkanoid\Poziom1.cpp(306): warning C4715: "Poziom1::Start”: niewszystkie ścieżki kodu zwracają wartość
+  Arkanoid.vcxproj -> C:\Users\Admin\source\repos\Arkanoid\x64\Debug\Arkanoid.exe
